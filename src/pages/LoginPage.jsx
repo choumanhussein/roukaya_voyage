@@ -6,6 +6,7 @@ import { useNavigate, Link } from "react-router-dom";
 import LoginForm from "../components/account/LoginForm";
 import { useAuth } from "../hooks/useAuth";
 import { motion } from "framer-motion";
+import logo from "../image/roukaya.png";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -29,13 +30,9 @@ const LoginPage = () => {
         transition={{ duration: 0.5 }}
         className="max-w-md w-full space-y-8"
       >
-        <div className="text-center">
+        {/* <div className="text-center">
           <Link to="/">
-            <img
-              className="mx-auto h-14"
-              src="/api/placeholder/150/60"
-              alt="Roukaya Voyage"
-            />
+            <img className="mx-auto h-14" src={logo} alt="Roukaya Voyage" />
           </Link>
           <h2 className="mt-6 text-3xl font-bold text-blue-900">
             Connexion à votre compte
@@ -43,7 +40,7 @@ const LoginPage = () => {
           <p className="mt-2 text-sm text-gray-600">
             Accédez à vos réservations et préférences de voyage
           </p>
-        </div>
+        </div> */}
 
         <LoginForm onSubmit={handleLogin} />
 

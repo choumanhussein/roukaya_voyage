@@ -9,6 +9,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import logo from "../../image/roukaya.png";
 
 const LoginForm = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -68,11 +69,7 @@ const LoginForm = () => {
         exit="exit"
       >
         <div className="text-center">
-          <img
-            className="mx-auto h-14"
-            src="/api/placeholder/150/60"
-            alt="Roukaya Voyage"
-          />
+          <img className="mx-auto h-14" src={logo} alt="Roukaya Voyage" />
           <h2 className="mt-6 text-3xl font-bold text-blue-900">
             {isLogin ? "Connexion à votre compte" : "Créer un compte"}
           </h2>
