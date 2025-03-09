@@ -1,3 +1,4 @@
+// src/components/home/DestinationsSection.jsx
 import React from "react";
 import { useState, useEffect } from "react";
 import { MapPin, Star } from "lucide-react";
@@ -128,14 +129,15 @@ const DestinationsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white dark:bg-gray-800">
       <div className="container mx-auto px-4">
         {/* En-tête de section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-            Explorez le monde avec <span className="text-blue-600">nous</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 dark:text-blue-200 mb-4">
+            Explorez le monde avec{" "}
+            <span className="text-blue-600 dark:text-blue-400">nous</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Découvrez nos destinations les plus prisées à travers le monde et
             commencez à planifier votre prochaine aventure.
           </p>
@@ -149,8 +151,8 @@ const DestinationsSection = () => {
               onClick={() => setActiveCategory(category.id)}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 category.id === activeCategory
-                  ? "bg-blue-700 text-white shadow-md"
-                  : "bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-200"
+                  ? "bg-blue-700 text-white shadow-md dark:bg-blue-600"
+                  : "bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600 dark:hover:bg-gray-600"
               }`}
             >
               {category.label}
@@ -212,7 +214,7 @@ const DestinationsSection = () => {
 
               {/* Badge Featured */}
               {destination.featured && (
-                <div className="absolute top-3 right-3 bg-blue-600 text-white text-xs font-bold py-1 px-3 rounded-full">
+                <div className="absolute top-3 right-3 bg-blue-600 dark:bg-blue-500 text-white text-xs font-bold py-1 px-3 rounded-full">
                   Tendance
                 </div>
               )}
@@ -224,7 +226,7 @@ const DestinationsSection = () => {
         <div className="text-center mt-12">
           <Link
             to="/destinations"
-            className="inline-flex items-center px-6 py-3 bg-white border border-blue-700 text-blue-700 rounded-lg font-medium hover:bg-blue-50 transition-all duration-300"
+            className="inline-flex items-center px-6 py-3 bg-white dark:bg-gray-700 border border-blue-700 dark:border-blue-500 text-blue-700 dark:text-blue-400 rounded-lg font-medium hover:bg-blue-50 dark:hover:bg-gray-600 transition-all duration-300"
           >
             Voir toutes les destinations
             <svg

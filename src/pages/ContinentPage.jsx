@@ -30,7 +30,8 @@ const ContinentPage = () => {
             continent: "europe",
             description:
               "La ville lumière vous séduira par son architecture, sa gastronomie et son atmosphère romantique.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.8,
             price: 1299,
           },
@@ -41,7 +42,8 @@ const ContinentPage = () => {
             continent: "asie",
             description:
               "Île paradisiaque d'Indonésie, Bali est réputée pour ses rizières en terrasses, ses plages magnifiques et ses temples sacrés.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.7,
             price: 1499,
           },
@@ -52,7 +54,8 @@ const ContinentPage = () => {
             continent: "amérique",
             description:
               "La ville qui ne dort jamais vous invite à découvrir ses gratte-ciels, sa culture et son énergie unique.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.6,
             price: 1799,
           },
@@ -63,7 +66,8 @@ const ContinentPage = () => {
             continent: "asie",
             description:
               "Mélange fascinant de tradition et d'innovation, Tokyo est une métropole qui ne dort jamais.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.9,
             price: 1999,
           },
@@ -74,7 +78,8 @@ const ContinentPage = () => {
             continent: "europe",
             description:
               "Île des Cyclades connue pour ses maisons blanches à dômes bleus, ses vues spectaculaires et ses couchers de soleil romantiques.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.7,
             price: 1399,
           },
@@ -85,7 +90,8 @@ const ContinentPage = () => {
             continent: "afrique",
             description:
               "Explorez les pyramides et découvrez l'histoire fascinante de l'Égypte ancienne.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.5,
             price: 1299,
           },
@@ -96,7 +102,8 @@ const ContinentPage = () => {
             continent: "océanie",
             description:
               "Découvrez la beauté de l'opéra de Sydney et les plages australiennes.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.6,
             price: 2299,
           },
@@ -107,7 +114,8 @@ const ContinentPage = () => {
             continent: "amérique",
             description:
               "Profitez des plages de Copacabana et admirez le Christ Rédempteur.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.4,
             price: 1899,
           },
@@ -118,7 +126,8 @@ const ContinentPage = () => {
             continent: "europe",
             description:
               "La ville éternelle regorge de trésors historiques et d'une gastronomie exceptionnelle.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.8,
             price: 1349,
           },
@@ -129,7 +138,8 @@ const ContinentPage = () => {
             continent: "afrique",
             description:
               "Plongez dans l'ambiance des souks et découvrez les palais majestueux.",
-            image: "/api/placeholder/400/300",
+            image:
+              "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
             rating: 4.6,
             price: 1199,
           },

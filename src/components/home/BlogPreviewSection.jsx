@@ -1,3 +1,4 @@
+// src/components/home/BlogPreviewSection.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import { Calendar, User, ArrowRight, ChevronRight } from "lucide-react";
@@ -18,19 +19,6 @@ const BlogPreviewSection = () => {
       authorAvatar:
         "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
     },
-    // {
-    //   id: 2,
-    //   title: "Guide complet pour un safari inoubliable en Tanzanie",
-    //   excerpt:
-    //     "Tout ce que vous devez savoir pour organiser votre safari dans le Serengeti et observer la grande migration.",
-    //   image:
-    //     "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
-    //   category: "Guides",
-    //   date: "15 février 2025",
-    //   author: "Thomas Renaud",
-    //   authorAvatar:
-    //     "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
-    // },
     {
       id: 3,
       title: "Comment voyager de manière responsable et durable en 2025",
@@ -52,22 +40,23 @@ const BlogPreviewSection = () => {
   const secondaryPosts = blogPosts.slice(1);
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         {/* En-tête de section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-              Blog <span className="text-blue-600">Voyages</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 dark:text-blue-200 mb-4">
+              Blog{" "}
+              <span className="text-blue-600 dark:text-blue-400">Voyages</span>
             </h2>
-            <p className="text-gray-600 max-w-xl">
+            <p className="text-gray-600 dark:text-gray-300 max-w-xl">
               Inspirations, conseils pratiques et récits d'expériences pour
               préparer votre prochain voyage.
             </p>
           </div>
           <Link
             to="/blog"
-            className="inline-flex items-center text-blue-700 font-medium mt-4 md:mt-0 hover:text-blue-800 transition-colors"
+            className="inline-flex items-center text-blue-700 dark:text-blue-400 font-medium mt-4 md:mt-0 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
           >
             Voir tous les articles
             <ChevronRight size={18} className="ml-1" />
@@ -79,7 +68,7 @@ const BlogPreviewSection = () => {
           <div className="lg:col-span-2">
             <Link
               to={`/blog/${featuredPost.id}`}
-              className="group block h-full overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white"
+              className="group block h-full overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white dark:bg-gray-800"
             >
               <div className="relative overflow-hidden">
                 <img
@@ -93,11 +82,13 @@ const BlogPreviewSection = () => {
               </div>
 
               <div className="p-6">
-                <h3 className="text-xl font-bold text-blue-900 mb-3 group-hover:text-blue-700 transition-colors">
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-200 mb-3 group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors">
                   {featuredPost.title}
                 </h3>
 
-                <p className="text-gray-600 mb-4">{featuredPost.excerpt}</p>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  {featuredPost.excerpt}
+                </p>
 
                 <div className="flex items-center justify-between mt-6">
                   <div className="flex items-center">
@@ -106,12 +97,12 @@ const BlogPreviewSection = () => {
                       alt={featuredPost.author}
                       className="w-8 h-8 rounded-full mr-3"
                     />
-                    <span className="text-sm text-gray-600">
+                    <span className="text-sm text-gray-600 dark:text-gray-300">
                       {featuredPost.author}
                     </span>
                   </div>
 
-                  <div className="flex items-center text-gray-500 text-sm">
+                  <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm">
                     <Calendar size={14} className="mr-1" />
                     <span>{featuredPost.date}</span>
                   </div>
@@ -126,7 +117,7 @@ const BlogPreviewSection = () => {
               <Link
                 key={post.id}
                 to={`/blog/${post.id}`}
-                className="group flex flex-col sm:flex-row lg:flex-col overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white h-full"
+                className="group flex flex-col sm:flex-row lg:flex-col overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white dark:bg-gray-800 h-full"
               >
                 <div className="relative overflow-hidden sm:w-1/3 lg:w-full">
                   <img
@@ -140,11 +131,11 @@ const BlogPreviewSection = () => {
                 </div>
 
                 <div className="p-4 sm:w-2/3 lg:w-full">
-                  <h3 className="text-lg font-bold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors">
+                  <h3 className="text-lg font-bold text-blue-900 dark:text-blue-200 mb-2 group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors">
                     {post.title}
                   </h3>
 
-                  <p className="text-gray-600 text-sm mb-3 line-clamp-2">
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-3 line-clamp-2">
                     {post.excerpt}
                   </p>
 
@@ -155,12 +146,12 @@ const BlogPreviewSection = () => {
                         alt={post.author}
                         className="w-6 h-6 rounded-full mr-2"
                       />
-                      <span className="text-xs text-gray-600">
+                      <span className="text-xs text-gray-600 dark:text-gray-300">
                         {post.author}
                       </span>
                     </div>
 
-                    <div className="flex items-center text-gray-500 text-xs">
+                    <div className="flex items-center text-gray-500 dark:text-gray-400 text-xs">
                       <Calendar size={12} className="mr-1" />
                       <span>{post.date}</span>
                     </div>
@@ -175,7 +166,7 @@ const BlogPreviewSection = () => {
         <div className="mt-12 text-center">
           <Link
             to="/blog"
-            className="inline-flex items-center px-6 py-3 bg-blue-700 text-white rounded-lg font-medium hover:bg-blue-800 transition-all duration-300"
+            className="inline-flex items-center px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white dark:bg-blue-600 dark:hover:bg-blue-700 rounded-lg font-medium transition-all duration-300"
           >
             Découvrir plus d'articles
             <ArrowRight size={18} className="ml-2" />

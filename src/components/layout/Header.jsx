@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Globe, User, ChevronDown, Sun, Moon } from "lucide-react";
 import logo from "../../image/roukaya.png";
+import useTheme from "../../hooks/useTheme";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleTheme } = useTheme();
 
   // Header scroll effect
   useEffect(() => {
@@ -114,10 +116,10 @@ const Header = () => {
 
             {/* Day/Night Mode Button */}
             <button
-              onClick={() => setDarkMode(!darkMode)}
+              onClick={toggleTheme}
               className={`p-2 rounded-full ${
                 isScrolled
-                  ? "text-blue-700 hover:bg-blue-100"
+                  ? "text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-800"
                   : "text-white hover:bg-white hover:bg-opacity-10"
               }`}
             >

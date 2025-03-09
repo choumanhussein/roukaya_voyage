@@ -15,7 +15,8 @@ const AllDestinationsPage = () => {
         name: "Paris",
         country: "France",
         continent: "Europe",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.8,
         price: 1299,
       },
@@ -24,7 +25,8 @@ const AllDestinationsPage = () => {
         name: "Bali",
         country: "Indonésie",
         continent: "Asie",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.7,
         price: 1499,
       },
@@ -33,7 +35,8 @@ const AllDestinationsPage = () => {
         name: "New York",
         country: "États-Unis",
         continent: "Amérique",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.6,
         price: 1799,
       },
@@ -42,7 +45,8 @@ const AllDestinationsPage = () => {
         name: "Tokyo",
         country: "Japon",
         continent: "Asie",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.9,
         price: 1999,
       },
@@ -51,7 +55,8 @@ const AllDestinationsPage = () => {
         name: "Santorin",
         country: "Grèce",
         continent: "Europe",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.7,
         price: 1399,
       },
@@ -60,7 +65,8 @@ const AllDestinationsPage = () => {
         name: "Le Caire",
         country: "Égypte",
         continent: "Afrique",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.5,
         price: 1299,
       },
@@ -69,7 +75,8 @@ const AllDestinationsPage = () => {
         name: "Sydney",
         country: "Australie",
         continent: "Océanie",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.6,
         price: 2299,
       },
@@ -78,7 +85,8 @@ const AllDestinationsPage = () => {
         name: "Rio de Janeiro",
         country: "Brésil",
         continent: "Amérique",
-        image: "/api/placeholder/400/300",
+        image:
+          "https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-to-know-before-you-go-to-bali/jcr:content/parsysContent/contentFragment/par43/calltoaction/image.img.480.medium.jpg/1651583179701.jpg",
         rating: 4.4,
         price: 1899,
       },
