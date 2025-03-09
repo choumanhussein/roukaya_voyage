@@ -527,13 +527,14 @@ const ContactPage = () => {
             </div>
             <div className="aspect-w-16 aspect-h-9 md:aspect-h-6">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.299740533989!2d2.3280657156743493!3d48.86638907928819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e23f7a7b853%3A0xf41ace95130536ee!2sArc%20de%20Triomphe!5e0!3m2!1sen!2sfr!4v1646156586833!5m2!1sen!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.832815435505!2d-3.9840872241552137!3d5.288767736277314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ef62fc72b493%3A0xcef9345d2d9c8ec9!2sRoukaya%20Voyage%20and%20Touisme!5e0!3m2!1sfr!2sjp!4v1741534178861!5m2!1sfr!2sjp"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-                title="Carte Google Maps de Roukaya Voyage"
+                title="Carte Google Maps de
+                Roukaya Voyage"
               ></iframe>
             </div>
           </div>
